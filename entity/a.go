@@ -2,8 +2,8 @@ package entity
 
 import "strconv"
 
-const FIZZ string = "FIZZ"
-const BUZZ string = "BUZZ"
+const FIZZ string = "Fizz"
+const BUZZ string = "Buzz"
 const FIZZ_BUZZ string  = "FizzBuzz"
 
 type MyInt struct {
