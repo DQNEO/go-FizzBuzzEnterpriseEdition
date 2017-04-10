@@ -1,6 +1,6 @@
 package main
 
-import "github.com/DQNEO/go-samples/fizzbuzz/logic"
+import "github.com/DQNEO/go-FizzBuzzEnterpriseEdition/logic"
 import "fmt"
 
 

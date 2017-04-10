@@ -1,6 +1,6 @@
 package logic
 
-import "github.com/DQNEO/go-samples/fizzbuzz/entity"
+import "github.com/DQNEO/go-FizzBuzzEnterpriseEdition/entity"
 
 func fizzable(i int) bool {
 	return (i % 3) == 0
