@@ -5,10 +5,19 @@ import "fmt"
 
 
 func main() {
-    var start,end int = 1,30
-    for i := start; i <= end ; i++ {
-        s := logic.Logic(i)
+    start := 1
+    end := 30
+
+    numbers := make([]int, end, end)
+
+    for i := start  - 1; i < end ; i++ {
+        numbers[i] = i + 1
+    }
+
+    for _,v := range(numbers) {
+        s := logic.Logic(v)
         fmt.Println(s.String())
     }
+
 }
 
