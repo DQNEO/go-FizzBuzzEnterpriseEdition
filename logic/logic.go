@@ -23,7 +23,7 @@ func Logic(i int) Stringable {
 	} else if buzzable(i) {
 		return entity.BUZZ_ENTITY
 	} else {
-		return entity.MyInt{Data:i}
+		return entity.MyInt(i)
 	}
 }
 
