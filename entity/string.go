@@ -13,10 +13,6 @@ func (myString MyString) String() string {
 	return myString.Data;
 }
 
-type Stringable interface {
-	String() string
-}
-
 
 var FIZZ_ENTITY MyString = MyString{Data: FIZZ}
 

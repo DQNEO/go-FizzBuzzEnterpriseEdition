@@ -2,6 +2,10 @@ package logic
 
 import "github.com/DQNEO/go-FizzBuzzEnterpriseEdition/entity"
 
+type Stringable interface {
+	String() string
+}
+
 func fizzable(i int) bool {
 	return (i % 3) == 0
 }
@@ -11,7 +15,7 @@ func buzzable(i int) bool {
 }
 
 
-func Logic(i int) entity.Stringable {
+func Logic(i int) Stringable {
 	if (fizzable(i) && buzzable(i)) {
 		return entity.FIZZ_BUZZ_ENTITY
 	} else if fizzable(i) {
