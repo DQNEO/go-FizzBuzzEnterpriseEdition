@@ -2,12 +2,9 @@ package entity
 
 import "strconv"
 
-type MyInt struct {
-	Data int
-}
+type MyInt int
 
 func (myInt MyInt) String() string {
-	return strconv.Itoa(myInt.Data)
+	return strconv.Itoa(int(myInt))
 }
-
 
