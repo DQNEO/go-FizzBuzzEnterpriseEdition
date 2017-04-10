@@ -1,18 +1,8 @@
 package entity
 
-import "strconv"
-
 const FIZZ string = "Fizz"
 const BUZZ string = "Buzz"
 const FIZZ_BUZZ string  = "FizzBuzz"
-
-type MyInt struct {
-	Data int
-}
-
-func (myInt MyInt) String() string {
-	return strconv.Itoa(myInt.Data)
-}
 
 
 type MyString struct {

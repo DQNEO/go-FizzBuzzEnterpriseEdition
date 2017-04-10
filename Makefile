@@ -1,5 +1,8 @@
 .PHONY: run test
 
+build:
+	go build
+
 run:
 	go run fizzbuzz.go
 
