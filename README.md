@@ -7,3 +7,15 @@ FizzBuzz Enterprise Edtion by go
 make
 ./fizzbuzz
 ```
+
+or in short
+
+```
+make run
+```
+
+# TEST
+
+```
+make test
+```
