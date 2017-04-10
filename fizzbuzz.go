@@ -5,7 +5,7 @@ import "fmt"
 
 
 func getSlice(start int, end int) []int {
-    numbers := make([]int, end, end)
+    numbers := make([]int, end)
 
     for i := start  - 1; i < end ; i++ {
         numbers[i] = i + 1
